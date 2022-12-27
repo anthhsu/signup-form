@@ -1,15 +1,24 @@
 .parent-container {
     display: flex;
+    height: 100vh;
 }
 
 .flex-child-form {
+    display: flex;
     flex: auto;
-    height: 100vh;
+    flex-direction: column;
 }
 
 .flex-child-img {
     background-image: url("mountain.jpg");
     background-size: cover;
     flex-basis: 40%;
-    height: 100vh;
+}
+
+.flex-child-intro {
+    flex: auto
+}
+
+.flex-child-info {
+    flex-basis: 33%;
 }
