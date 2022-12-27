@@ -5,8 +5,8 @@
 
 .flex-child-form {
     display: flex;
-    flex: auto;
     flex-direction: column;
+    flex-basis: 60%;
 }
 
 .flex-child-img {
@@ -16,9 +16,32 @@
 }
 
 .flex-child-intro {
-    flex: auto
+    flex: auto;
+}
+
+.flex-child-intro h2 {
+    padding: 50px;
 }
 
 .flex-child-info {
-    flex-basis: 33%;
+    flex-basis: 67%;
+}
+
+.info-flex {
+    display: flex;
+}
+
+.info-flex div {
+    flex: auto;
+}
+
+.form-submit {
+    padding: 50px;
+}
+
+.btn-submit {
+    background-color: seagreen;
+    color: white;
+    border-width: 0;
+    border-radius: 5%;
 }
