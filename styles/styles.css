@@ -88,8 +88,23 @@
 }
 
 .btn-submit {
-    background-color: seagreen;
+    background-color: #D18700;
     color: white;
     border-width: 0;
     border-radius: 5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+label {
+    font-size: 0.75rem;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
