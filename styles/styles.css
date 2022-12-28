@@ -1,3 +1,8 @@
+@font-face {
+    font-family: odinFont;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
 .parent-container {
     display: flex;
     height: 100vh;
@@ -21,9 +26,40 @@
     flex: auto;
 }
 
+.img-logo {
+    flex-basis: 20%;
+    background-color: black;
+    opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-logo > div {
+    flex: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    flex: auto;
+    height: 20vh;
+}
+
+.logo-text {
+    flex: auto;
+    color: white;
+    font-size: 10vh;
+    font-family: odinFont;
+}
+
 .img-credit {
     text-align: center;
     flex-basis: 5%;
+    color: white;
+}
+
+.img-credit a {
     color: white;
 }
 
