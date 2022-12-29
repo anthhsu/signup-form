@@ -131,3 +131,22 @@ input {
     border-radius: 4px;
     border-color: #E5E7EB;
 }
+
+.error {
+    border-color: red;
+}
+
+.error-shown {
+    color: red;
+    visibility: visible;
+}
+
+.error-hidden {
+    visibility: hidden;
+}
+
+#error_text {
+    margin: 0;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
