@@ -43,7 +43,7 @@
 
 .logo-img {
     flex: auto;
-    height: 20vh;
+    height: 15vh;
 }
 
 .logo-text {
@@ -51,6 +51,8 @@
     color: white;
     font-size: 10vh;
     font-family: odinFont;
+    margin: 0;
+    padding-top: 10px;
 }
 
 .img-credit {
@@ -83,6 +85,15 @@
     flex: auto;
 }
 
+.form-inputs {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px;
+    border-style: ridge;
+}
+
 .form-submit {
     padding: 50px;
 }
@@ -107,4 +118,13 @@ label {
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    border-color: #E5E7EB;
 }
