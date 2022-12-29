@@ -29,33 +29,33 @@
                         <br><br>You <em>know</em> you want to.
                     </h2>
                 </div>
-                <form action="/" method="post" class="flex-child-info">
+                <form action="" method="" class="flex-child-info">
                     <div class="form-inputs">
                         <h2>Let's do this!</h2>
                         <div class="info-flex">
                             <div class="info-col-one">
-                                <label for="first_name">FIRST NAME</label>
+                                <label for="first_name">FIRST NAME*</label>
                                 <br>
-                                <input type="text" id="first_name" name="first_name" placeholder="Thor">
+                                <input type="text" id="first_name" name="first_name" placeholder="Thor" required>
                                 <br><br>
                                 <label for="email">EMAIL</label>
                                 <br>
                                 <input type="email" id="email" name="email" placeholder="">
                                 <br><br>
-                                <label for="password">PASSWORD</label>
+                                <label for="password">PASSWORD*</label>
                                 <br>
                                 <input type="password" id="password" name="password" placeholder="" required>
                             </div>
                             <div class="info-col-two">
-                                <label for="last_name">LAST NAME</label>
+                                <label for="last_name">LAST NAME*</label>
                                 <br>
-                                <input type="text" id="last_name" name="last_name" placeholder="Odinson">
+                                <input type="text" id="last_name" name="last_name" placeholder="Odinson" required>
                                 <br><br>
                                 <label for="phone_number">PHONE NUMBER</label>
                                 <br>
                                 <input type="text" id="phone_number" name="phone_number" placeholder="123-123-1234" pattern="((\d{3})([\-]\d{3})([\-]\d{4}))">
                                 <br><br>
-                                <label for="password_confirm">CONFIRM PASSWORD</label>
+                                <label for="password_confirm">CONFIRM PASSWORD*</label>
                                 <br>
                                 <input type="password" id="password_confirm" name="password_confirm" placeholder="" required>
                             </div>
@@ -65,7 +65,7 @@
                     <div class="form-submit">
                         <button type="submit" class="btn-submit" id="btn_submit" onclick="createAccount(event)">Create Account</button>
                         <br>
-                        <p>Already have an account? <a href="http://www.google.com">Log In</a></p>
+                        <p>Already have an account? <a id="link-login" href="">Log In</a></p>
                     </div>
                 </form>
             </div>
